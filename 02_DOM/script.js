@@ -11,12 +11,11 @@ addEventListener('click', () => {
 // Example 2: Traversing the DOM 
 document.getElementById("highlightFirstCity").
 addEventListener('click', function() {
-let citiesList =document.getElementById("citiesList");
-citiesList.firstElementChild.classList.add("highlight")
+document.getElementById("citiesList").firstElementChild.classList.add("highlight")
 }
 )
 
-// Example 3: Manipulating DOM Elements
+// Example 3: Manipulating DOM Elements and classList is used to: add classes, remove classes, toggle classes
 document.getElementById("changeOrder").
 addEventListener('click', function(){
 let change=document.getElementById("coffeeType");
